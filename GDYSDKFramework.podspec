@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -109,6 +109,7 @@ Pod::Spec.new do |spec|
 #spec.ios.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
 spec.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
 
+
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -119,7 +120,7 @@ spec.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = 'UIKit', 'MapKit','Foundation'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
