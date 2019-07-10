@@ -107,7 +107,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 #spec.ios.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
-spec.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
+spec.vendored_frameworks = "GDYSDKUniversal.framework"
 
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
