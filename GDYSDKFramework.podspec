@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GDYSDKUniversalFramework.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GDYSDKFramework.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "GDYSDKUniversalFramework"
+  spec.name         = "GDYSDKFramework"
   spec.version      = "0.1.3"
-  spec.summary      = "GDYSDKUniversalFramework use framework to create cocoapods."
+  spec.summary      = "GDYSDKFramework use framework to create cocoapods."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                  GDYSDKUniversalFramework use framework to create cocoapods. Also different directly use pod lib create.
+                  GDYSDKFramework use framework to create cocoapods. Also different directly use pod lib create.
 	DESC
 
   spec.homepage     = "https://github.com/GDaYao/GDYSDKFramework"
@@ -108,8 +108,8 @@ spec.ios.deployment_target = "9.0"
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-spec.ios.vendored_frameworks = "Framework/GDYSDKUniversal.framework"
-#spec.vendored_frameworks = "GDYSDKUniversal.framework"
+spec.ios.vendored_frameworks = "Framework/GDYSDKFramework.framework"
+#spec.vendored_frameworks = "GDYSDKFramework.framework"
 
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
